@@ -1,0 +1,265 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2551071269,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 432002832,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setBaseURI()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Validate data generated from API",
+        "description": "",
+        "id": "api-get-request-testing-for-amplience\u0027s-api;validate-data-generated-from-api;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 81933367,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 65189011,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have base uri",
+            "match": {
+              "location": "GetAPIDataSteps.iHaveBaseUri()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 989007724,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I execute get request with userId \"6wl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6wl",
+                  "offset": 35
+                }
+              ],
+              "location": "GetAPIDataSteps.iExecuteGetRequestWithUserId(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19603297,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see status code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "GetAPIDataSteps.iShouldSeeStatusCodeAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 281975008,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I see response with values of \"Gregory Loscombe\",\"15330\",\"Manchester\",\"6\",\"11\",\"16\",\"29\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gregory Loscombe",
+                  "offset": 31
+                },
+                {
+                  "val": "15330",
+                  "offset": 50
+                },
+                {
+                  "val": "Manchester",
+                  "offset": 58
+                },
+                {
+                  "val": "6",
+                  "offset": 71
+                },
+                {
+                  "val": "11",
+                  "offset": 75
+                },
+                {
+                  "val": "16",
+                  "offset": 80
+                },
+                {
+                  "val": "29",
+                  "offset": 85
+                }
+              ],
+              "location": "GetAPIDataSteps.iSeeResponseWithValuesOf(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TestApi"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1087656212,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 178674,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setBaseURI()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "API not available",
+        "description": "",
+        "id": "api-get-request-testing-for-amplience\u0027s-api;api-not-available;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 79787064,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 225202,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I have base uri",
+            "match": {
+              "location": "GetAPIDataSteps.iHaveBaseUri()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 268291654,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I execute get request with userId \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 35
+                }
+              ],
+              "location": "GetAPIDataSteps.iExecuteGetRequestWithUserId(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 813538,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see status code as \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 29
+                }
+              ],
+              "location": "GetAPIDataSteps.iShouldSeeStatusCodeAs(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TestApi"
+          }
+        ]
+      }
+    ],
+    "name": "API get request Testing for Amplience\u0027s API",
+    "description": "As a user\nI want to to be able get current data from API\nSo that I can validate that API functionality",
+    "id": "api-get-request-testing-for-amplience\u0027s-api",
+    "keyword": "Feature",
+    "uri": "verifyAPIData.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@TestApi"
+      }
+    ]
+  }
+]

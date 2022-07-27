@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.amplienceTest.RunCukesTest" time="5.555" tests="75" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/kevinpatel/Downloads/WeatherApi-main/FunctionalWeatherAPI/target/test-classes:/Users/kevinpatel/Downloads/WeatherApi-main/FunctionalWeatherAPI/target/classes:/Users/kevinpatel/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/kevinpatel/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kevinpatel/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/kevinpatel/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/kevinpatel/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/kevinpatel/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/kevinpatel/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/kevinpatel/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kevinpatel/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/kevinpatel/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/kevinpatel/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/kevinpatel/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/kevinpatel/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar:/Users/kevinpatel/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar:/Users/kevinpatel/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar:/Users/kevinpatel/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/kevinpatel/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/kevinpatel/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/kevinpatel/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/kevinpatel/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/kevinpatel/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/kevinpatel/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/kevinpatel/.m2/repository/com/google/code/gson/gson/2.8.3/gson-2.8.3.jar:/Users/kevinpatel/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/kevinpatel/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/kevinpatel/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/kevinpatel/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/kevinpatel/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/kevinpatel/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/kevinpatel/Downloads/WeatherApi-main/FunctionalWeatherAPI/target/surefire/surefirebooter2067876328321046243.jar /Users/kevinpatel/Downloads/WeatherApi-main/FunctionalWeatherAPI/target/surefire 2022-07-26T09-22-20_464-jvmRun1 surefire4536204369735057162tmp surefire_03870237371808717804tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/kevinpatel/Downloads/WeatherApi-main/FunctionalWeatherAPI/target/test-classes:/Users/kevinpatel/Downloads/WeatherApi-main/FunctionalWeatherAPI/target/classes:/Users/kevinpatel/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/kevinpatel/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kevinpatel/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/kevinpatel/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/kevinpatel/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/kevinpatel/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/kevinpatel/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/kevinpatel/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kevinpatel/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/kevinpatel/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/kevinpatel/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/kevinpatel/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/kevinpatel/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar:/Users/kevinpatel/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar:/Users/kevinpatel/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar:/Users/kevinpatel/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/kevinpatel/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/kevinpatel/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/kevinpatel/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/kevinpatel/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/kevinpatel/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/kevinpatel/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/kevinpatel/.m2/repository/com/google/code/gson/gson/2.8.3/gson-2.8.3.jar:/Users/kevinpatel/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/kevinpatel/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/kevinpatel/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/kevinpatel/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/kevinpatel/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/kevinpatel/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/kevinpatel"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/kevinpatel/Downloads/WeatherApi-main/FunctionalWeatherAPI"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/kevinpatel/Downloads/WeatherApi-main/FunctionalWeatherAPI/target/surefire/surefirebooter2067876328321046243.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_321-b07"/>
+    <property name="user.name" value="kevinpatel"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.4"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/kevinpatel/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/4n/ng75cqd177s6c01fhgzr0szr0000gn/T/"/>
+    <property name="idea.version" value="2021.3.3"/>
+    <property name="java.version" value="1.8.0_321"/>
+    <property name="user.dir" value="/Users/kevinpatel/Downloads/WeatherApi-main/FunctionalWeatherAPI"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/kevinpatel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.321-b07"/>
+    <property name="java.ext.dirs" value="/Users/kevinpatel/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Given I have base uri" classname="| q | london | London | 2643743 | -0.1257 | 51.5085 |" time="0.001"/>
+  <testcase name="When I execute get request with query param &quot;q&quot; and &quot;london&quot;" classname="| q | london | London | 2643743 | -0.1257 | 51.5085 |" time="0"/>
+  <testcase name="Then I should see status code as &quot;200&quot;" classname="| q | london | London | 2643743 | -0.1257 | 51.5085 |" time="0"/>
+  <testcase name="And I see response with values of &quot;London&quot;,&quot;2643743&quot;,&quot;-0.1257&quot;,&quot;51.5085&quot;" classname="| q | london | London | 2643743 | -0.1257 | 51.5085 |" time="0"/>
+  <testcase name="| q | london | London | 2643743 | -0.1257 | 51.5085 |" classname="| q | london | London | 2643743 | -0.1257 | 51.5085 |" time="0"/>
+  <testcase name="Given I have base uri" classname="| id | 2643743 | London | 2643743 | -0.1257 | 51.5085 |" time="0"/>
+  <testcase name="When I execute get request with query param &quot;id&quot; and &quot;2643743&quot;" classname="| id | 2643743 | London | 2643743 | -0.1257 | 51.5085 |" time="0"/>
+  <testcase name="Then I should see status code as &quot;200&quot;" classname="| id | 2643743 | London | 2643743 | -0.1257 | 51.5085 |" time="0"/>
+  <testcase name="And I see response with values of &quot;London&quot;,&quot;2643743&quot;,&quot;-0.1257&quot;,&quot;51.5085&quot;" classname="| id | 2643743 | London | 2643743 | -0.1257 | 51.5085 |" time="0"/>
+  <testcase name="| id | 2643743 | London | 2643743 | -0.1257 | 51.5085 |" classname="| id | 2643743 | London | 2643743 | -0.1257 | 51.5085 |" time="0"/>
+  <testcase name="Given I have base uri" classname="| zip | 94040 | Mountain View | 0 | -122.088 | 37.3855 |" time="0"/>
+  <testcase name="When I execute get request with query param &quot;zip&quot; and &quot;94040&quot;" classname="| zip | 94040 | Mountain View | 0 | -122.088 | 37.3855 |" time="0"/>
+  <testcase name="Then I should see status code as &quot;200&quot;" classname="| zip | 94040 | Mountain View | 0 | -122.088 | 37.3855 |" time="0"/>
+  <testcase name="And I see response with values of &quot;Mountain View&quot;,&quot;0&quot;,&quot;-122.088&quot;,&quot;37.3855&quot;" classname="| zip | 94040 | Mountain View | 0 | -122.088 | 37.3855 |" time="0"/>
+  <testcase name="| zip | 94040 | Mountain View | 0 | -122.088 | 37.3855 |" classname="| zip | 94040 | Mountain View | 0 | -122.088 | 37.3855 |" time="0"/>
+  <testcase name="Given I have base uri" classname="Scenario: Validate weather data with valid data" time="0"/>
+  <testcase name="When I execute get request by geographic coordinates with query params &quot;51.51&quot; &quot;-0.13&quot;" classname="Scenario: Validate weather data with valid data" time="0"/>
+  <testcase name="Then I should see status code as &quot;200&quot;" classname="Scenario: Validate weather data with valid data" time="0"/>
+  <testcase name="And I see response with values of &quot;London&quot;,&quot;2643743&quot;,&quot;-0.13&quot;,&quot;51.51&quot;" classname="Scenario: Validate weather data with valid data" time="0"/>
+  <testcase name="Scenario: Validate weather data with valid data" classname="Scenario: Validate weather data with valid data" time="0"/>
+  <testcase name="Given I have base uri" classname="| q |  |" time="0"/>
+  <testcase name="When I execute get request with query param &quot;q&quot; and &quot;&quot;" classname="| q |  |" time="0"/>
+  <testcase name="Then I should see status code as &quot;400&quot;" classname="| q |  |" time="0"/>
+  <testcase name="And I should see the message body with &quot;message&quot; as &quot;Nothing to geocode&quot;" classname="| q |  |" time="0"/>
+  <testcase name="| q |  |" classname="| q |  |" time="0"/>
+  <testcase name="Given I have base uri" classname="| id |  |" time="0"/>
+  <testcase name="When I execute get request with query param &quot;id&quot; and &quot;&quot;" classname="| id |  |" time="0"/>
+  <testcase name="Then I should see status code as &quot;400&quot;" classname="| id |  |" time="0"/>
+  <testcase name="And I should see the message body with &quot;message&quot; as &quot;Nothing to geocode&quot;" classname="| id |  |" time="0"/>
+  <testcase name="| id |  |" classname="| id |  |" time="0"/>
+  <testcase name="Given I have base uri" classname="| zip |  |" time="0"/>
+  <testcase name="When I execute get request with query param &quot;zip&quot; and &quot;&quot;" classname="| zip |  |" time="0"/>
+  <testcase name="Then I should see status code as &quot;400&quot;" classname="| zip |  |" time="0"/>
+  <testcase name="And I should see the message body with &quot;message&quot; as &quot;Nothing to geocode&quot;" classname="| zip |  |" time="0"/>
+  <testcase name="| zip |  |" classname="| zip |  |" time="0"/>
+  <testcase name="Given I have base uri" classname="| q | london12 |" time="0"/>
+  <testcase name="When I execute get request with query param &quot;q&quot; and &quot;london12&quot;" classname="| q | london12 |" time="0"/>
+  <testcase name="Then I should see status code as &quot;404&quot;" classname="| q | london12 |" time="0"/>
+  <testcase name="And I should see the message body with &quot;message&quot; as &quot;city not found&quot;" classname="| q | london12 |" time="0"/>
+  <testcase name="| q | london12 |" classname="| q | london12 |" time="0"/>
+  <testcase name="Given I have base uri" classname="| id | 264374398088 |" time="0"/>
+  <testcase name="When I execute get request with query param &quot;id&quot; and &quot;264374398088&quot;" classname="| id | 264374398088 |" time="0"/>
+  <testcase name="Then I should see status code as &quot;404&quot;" classname="| id | 264374398088 |" time="0"/>
+  <testcase name="And I should see the message body with &quot;message&quot; as &quot;city not found&quot;" classname="| id | 264374398088 |" time="0"/>
+  <testcase name="| id | 264374398088 |" classname="| id | 264374398088 |" time="0"/>
+  <testcase name="Given I have base uri" classname="| zip | 9404078998909 |" time="0"/>
+  <testcase name="When I execute get request with query param &quot;zip&quot; and &quot;9404078998909&quot;" classname="| zip | 9404078998909 |" time="0"/>
+  <testcase name="Then I should see status code as &quot;404&quot;" classname="| zip | 9404078998909 |" time="0"/>
+  <testcase name="And I should see the message body with &quot;message&quot; as &quot;city not found&quot;" classname="| zip | 9404078998909 |" time="0"/>
+  <testcase name="| zip | 9404078998909 |" classname="| zip | 9404078998909 |" time="0"/>
+  <testcase name="Given I have base uri" classname="| q1 | london |" time="0"/>
+  <testcase name="When I execute get request with query param &quot;q1&quot; and &quot;london&quot;" classname="| q1 | london |" time="0"/>
+  <testcase name="Then I should see status code as &quot;400&quot;" classname="| q1 | london |" time="0"/>
+  <testcase name="And I should see the message body with &quot;message&quot; as &quot;Nothing to geocode&quot;" classname="| q1 | london |" time="0"/>
+  <testcase name="| q1 | london |" classname="| q1 | london |" time="0"/>
+  <testcase name="Given I have base uri" classname="|  | 2643743 |" time="0"/>
+  <testcase name="When I execute get request with query param &quot;&quot; and &quot;2643743&quot;" classname="|  | 2643743 |" time="0"/>
+  <testcase name="Then I should see status code as &quot;400&quot;" classname="|  | 2643743 |" time="0.001"/>
+  <testcase name="And I should see the message body with &quot;message&quot; as &quot;Nothing to geocode&quot;" classname="|  | 2643743 |" time="0"/>
+  <testcase name="|  | 2643743 |" classname="|  | 2643743 |" time="0"/>
+  <testcase name="Given I have base uri" classname="| zip1 | 94040 |" time="0"/>
+  <testcase name="When I execute get request with query param &quot;zip1&quot; and &quot;94040&quot;" classname="| zip1 | 94040 |" time="0"/>
+  <testcase name="Then I should see status code as &quot;400&quot;" classname="| zip1 | 94040 |" time="0"/>
+  <testcase name="And I should see the message body with &quot;message&quot; as &quot;Nothing to geocode&quot;" classname="| zip1 | 94040 |" time="0"/>
+  <testcase name="| zip1 | 94040 |" classname="| zip1 | 94040 |" time="0"/>
+  <testcase name="Given I have base uri" classname="Scenario: Validate weather data with wrong Api key" time="0"/>
+  <testcase name="When I execute get request with wrong api key and query param as &quot;q&quot; and &quot;london&quot;" classname="Scenario: Validate weather data with wrong Api key" time="0"/>
+  <testcase name="Then I should see status code as &quot;401&quot;" classname="Scenario: Validate weather data with wrong Api key" time="0"/>
+  <testcase name="And I should see the message body with &quot;message&quot; as &quot;Invalid API key. Please see http://openweathermap.org/faq#error401 for more info.&quot;" classname="Scenario: Validate weather data with wrong Api key" time="0"/>
+  <testcase name="Scenario: Validate weather data with wrong Api key" classname="Scenario: Validate weather data with wrong Api key" time="0"/>
+  <testcase name="Given I have base uri" classname="Scenario: Validate weather data without Api key" time="0"/>
+  <testcase name="When I execute get request without api key and query param as &quot;q&quot; and &quot;london&quot;" classname="Scenario: Validate weather data without Api key" time="0"/>
+  <testcase name="Then I should see status code as &quot;401&quot;" classname="Scenario: Validate weather data without Api key" time="0"/>
+  <testcase name="And I should see the message body with &quot;message&quot; as &quot;Invalid API key. Please see http://openweathermap.org/faq#error401 for more info.&quot;" classname="Scenario: Validate weather data without Api key" time="0"/>
+  <testcase name="Scenario: Validate weather data without Api key" classname="Scenario: Validate weather data without Api key" time="0"/>
+</testsuite>
